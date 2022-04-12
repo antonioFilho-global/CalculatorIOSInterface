@@ -66,7 +66,7 @@ export default function Calculator() {
            let div = parseFloat(oldnum) /  parseFloat(num);
            setNum(div.toFixed(2))
         } else if (operator === "X"){
-            let mul = parseFloat(oldnum) /  parseFloat(num);
+            let mul = parseFloat(oldnum) *  parseFloat(num);
             setNum(mul.toFixed(2))
         } else if (operator === "+"){
             setNum(parseFloat(oldnum) +  parseFloat(num));
