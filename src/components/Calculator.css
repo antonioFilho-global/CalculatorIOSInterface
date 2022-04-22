@@ -21,6 +21,12 @@ button:hover{
 .orange {
     background-color: #FF9500;
     color:  white;
+} 
+
+/* Invertendo as cores quando o botão for clicado  */
+.orange:focus {
+    background-color: white;
+    color: #FF9500;
 }
 
 .gray {
@@ -28,9 +34,19 @@ button:hover{
     color: white;
 }
 
-/* Botão que foi escondido mas mantendo o espaço oculpado  */
-#hidden {
-    visibility: hidden;
+/* Invertendo as cores quando o botão for clicado  */
+.gray:focus {
+    background-color: #929292;
+}
+
+.lighter-gray:focus {
+    background-color: whitesmoke;
+}
+
+#zero {
+    width: 6.6em; 
+    text-align: left;
+    padding-left: 1em;
 }
 
 .result {
